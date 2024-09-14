@@ -5,6 +5,8 @@
 -- ON e.id = ea.managerId
 -- GROUP BY e.id
 -- HAVING COUNT(e.id) >= 5
+
+
 -- SELECT name
 -- FROM Employee
 -- WHERE id IN (
@@ -14,6 +16,7 @@
 --     GROUP BY managerId
 --     HAVING COUNT(*) >= 5
 -- );
+
 SELECT e.name
 FROM Employee e
 JOIN Employee ea
